@@ -15,12 +15,17 @@ nav a {
 }
 
 .sublink {
-    margin-left: 15px;
+    margin-left: 25px;
     padding: 5px !important;
+    font-weight: lighter;
 }
 
 .side-nav li {
     padding: 0 5px;
+}
+
+.active {
+    color: #0096AD !important;
 }
 
 .side-nav a {
@@ -30,7 +35,12 @@ nav a {
     font-size: 1rem;
     height: 40px;
     line-height: 22px;
-    padding: 0 15px;
+    padding: 10px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 1.1rem;
+    color: #E25D3A;
 }
 
 .header {
@@ -47,6 +57,9 @@ nav a {
     background-repeat: no-repeat;
 }
 
+.normal-page-header {
+    height: 250px;
+}
 .footer {
     height: 90px;
     background: url("../img/footer-logo.svg") no-repeat;
@@ -84,6 +97,18 @@ nav a {
 
 #partners ul li{
     float: left;
+}
+
+#committee_container h4 {
+    font-size: 1.4em;
+}
+
+#committee_container ul li  {
+    font-weight: bolder;
+}
+
+#committee_container .affiliation{
+    color: #a6d5e1;
 }
 
 .lhcp-orange {

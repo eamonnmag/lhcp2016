@@ -1,0 +1,10 @@
+<ul id="slide-out" class="side-nav">
+    <li style="padding: 10px; text-align: center;"><img src="assets/img/lhcp-logo.svg" width="130px"></li>
+    {{#each menu}}
+        <li class="{{class}}"><a href="{{url}}">{{name}}</a></li>
+
+        {{#each this.items}}
+            <li class="{{class}}"><a href="{{url}}">{{name}}</a></li>
+        {{/each}}
+    {{/each}}
+</ul>

@@ -1,0 +1,20 @@
+<ul class="right hide-on-med-and-down">
+    {{#each menu}}
+        <li class="{{class}}">
+            {{#if items}}
+                <a href="{{url}}" class="dropdown-button" class="{{link_class}}"
+                   data-activates="{{dropdown_id}}">{{name}} <i class="material-icons right">arrow_drop_down</i></a>
+            {{else}}
+                <a href="{{url}}" class="{{link_class}}">{{name}}</a>
+            {{/if}}
+        </li>
+    {{/each}}
+</ul>
+
+{{#each dropdowns}}
+    <ul id="{{dropdown_id}}" class="dropdown-content">
+        {{#each items}}
+            <li><a href="{{url}}" class="{{link_class}}">{{name}}</a></li>
+        {{/each}}
+    </ul>
+{{/each}}
