@@ -4,7 +4,7 @@
 
 var utils = (function () {
 
-    var templates = {"sidebar_nav": "assets/templates/sidebar-menu.hbs", "main_nav": "assets/templates/main-menu.hbs"};
+    var templates = {"sidebar_nav": "/assets/templates/sidebar-menu.hbs", "main_nav": "/assets/templates/main-menu.hbs"};
 
 
     var get_menu_items = function (active_item) {
