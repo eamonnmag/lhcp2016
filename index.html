@@ -19,39 +19,50 @@
 
     <nav style="background-color: #A6D5E1">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo"><img src="assets/img/lhcp-logo.svg" width="130px"> </a>
+            <a href="#" class="brand-logo" style="padding: 7px"><img src="assets/img/lhcp-logo.svg" width="130px"> </a>
             <ul id="slide-out" class="side-nav">
-                <li><img src="assets/img/lhcp-logo.svg" width="130px"></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Help</a></li>
-                <li><a class="dropdown-button" href="#!" data-activates="practical_information">Practical Information<i
-                        class="material-icons right">arrow_drop_down</i></a></li>
+                <li style="padding: 10px; text-align: center;"><img src="assets/img/lhcp-logo.svg" width="130px"></li>
+                <li><a href="/committee">Committee</a></li>
+                <li><a href="/agend">Venue</a></li>
+                <li><a href="/agenda">Agenda</a></li>
+                <li><a href="/registration">Registration</a></li>
+                <li><a href="/speakers">Speakers</a></li>
+                <li><a href="/practical_information">Practical Information</a></li>
+                <li class="sublink"><a href="/sub_link">Sublink</a></li>
             </ul>
+
             <ul class="right hide-on-med-and-down">
 
-                <li><a href="#aboutmodal">About</a></li>
-                <li><a href="#helpmodal">Help</a></li>
-                <li><a class="dropdown-button" href="#!" data-activates="practical_information">Practical Information<i
+                <li><a href="/committee">Committee</a></li>
+                <li><a href="/agend">Venue</a></li>
+                <li><a href="/agenda">Agenda</a></li>
+                <li><a href="/registration">Registration</a></li>
+                <li><a href="/speakers">Speakers</a></li>
+                <li><a class="dropdown-button" href="/practical_information" data-activates="practical_information">Practical Information<i
                         class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
+
+            <ul id="practical_information" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">three</a></li>
+            </ul>
+
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
         </div>
 
-        <ul id="practical_information" class="dropdown-content">
-            <li><a href="#!">one</a></li>
-            <li><a href="#!">two</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">three</a></li>
-        </ul>
 
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+
     </nav>
 
     <div class="information" align="center">
         <h4>Fourth Annual Large Hadron Collider Physics (LHCP2016)</h4>
 
         <p>Lund, Sweden, 13th - 18th June 2016</p>
-        <a href="" class="btn lhcp-orange">Indico Event Page</a>
-        <a href="" class="btn lhcp-orange">Contact Us</a>
+        <a href="https://indico.cern.ch/event/442390/overview#" target="_new" class="waves-effect waves-light btn lhcp-orange">Indico Event Page</a>
+        <a href="mailto:lhcp2016@hep.lu.se" class="waves-effect waves-light btn lhcp-orange">Contact Us</a>
 
     </div>
 </div>
