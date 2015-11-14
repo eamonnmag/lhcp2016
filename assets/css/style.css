@@ -46,13 +46,13 @@ nav a {
 .header {
     background-size: 100%;
     height: 450px;
-    background: url("../img/header-image.svg"), #a6d5e1; /* Old browsers */
-    background: url("../img/header-image.svg"), -moz-linear-gradient(top, #a6d5e1 0%, #d3e2e4 100%); /* FF3.6+ */
-    background: url("../img/header-image.svg"), -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a6d5e1), color-stop(100%, #d3e2e4)); /* Chrome,Safari4+ */
-    background: url("../img/header-image.svg"), -webkit-linear-gradient(top, #a6d5e1 0%, #d3e2e4 100%); /* Chrome10+,Safari5.1+ */
-    background: url("../img/header-image.svg"), -o-linear-gradient(top, #a6d5e1 0%, #d3e2e4 100%); /* Opera 11.10+ */
-    background: url("../img/header-image.svg"), -ms-linear-gradient(top, #a6d5e1 0%, #d3e2e4 100%); /* IE10+ */
-    background: url("../img/header-image.svg"), linear-gradient(to bottom, #a6d5e1 0%, #d3e2e4 100%); /* W3C */
+    background: url("../img/header-image-03.svg"), #a6d5e1; /* Old browsers */
+    background: url("../img/header-image-03.svg"), -moz-linear-gradient(top, #285287 15%, #27aae1 100%); /* FF3.6+ */
+    background: url("../img/header-image-03.svg"), -webkit-gradient(linear, left top, left bottom, color-stop(15%, #285287), color-stop(100%, #27aae1)); /* Chrome,Safari4+ */
+    background: url("../img/header-image-03.svg"), -webkit-linear-gradient(top, #285287 15%, #27aae1 100%); /* Chrome10+,Safari5.1+ */
+    background: url("../img/header-image-03.svg"), -o-linear-gradient(top, #285287 15%, #27aae1 100%); /* Opera 11.10+ */
+    background: url("../img/header-image-03.svg"), -ms-linear-gradient(top, #285287 15%, #27aae1 100%); /* IE10+ */
+    background: url("../img/header-image-03.svg"), linear-gradient(to bottom, #285287 15%, #27aae1 100%); /* W3C */
     background-position: bottom center;
     background-repeat: no-repeat;
 }
@@ -80,7 +80,7 @@ nav a {
 }
 
 .information h4 {
-    color: #0096AD;
+    color: white;
     font-size: 1.4em;
 }
 
@@ -108,7 +108,7 @@ nav a {
 }
 
 #committee_container .affiliation{
-    color: #a6d5e1;
+    color: #285287;
 }
 
 .lhcp-orange {
@@ -116,7 +116,7 @@ nav a {
 }
 
 .lhcp-blue {
-    background-color: #0096AD !important;
+    background-color: #285287 !important;
 }
 
 .white-text {
@@ -124,7 +124,7 @@ nav a {
 }
 
 .blue-text {
-    color: #0096AD !important;
+    color: #285287 !important;
 }
 
 .orange-text {
@@ -137,6 +137,10 @@ nav a {
 
 .font-normal {
     font-weight: normal;
+}
+
+.nav-header {
+    background-color: transparent;
 }
 
 .pad20 {
